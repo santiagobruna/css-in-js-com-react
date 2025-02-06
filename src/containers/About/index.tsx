@@ -5,7 +5,7 @@ import { GithubSecao } from "./styles";
 const About = () => (
   <section>
     <Title fontSize={16}>Sobre mim</Title>
-    <Paragraph tipo="secundario">
+    <Paragraph>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dolore fugiat amet suscipit vero ipsum exercitationem itaque nisi illo vel quasi repellat corrupti nostrum voluptate temporibus sequi, eveniet accusantium ab?
     </Paragraph>
     <GithubSecao>
