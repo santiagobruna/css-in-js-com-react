@@ -4,9 +4,10 @@ export type Props = {
   // valor: string;
   children: string,
   tipo?: string,
+  fontSize?: number
 }
-const Paragraph = ({children, tipo = 'principal'}: Props) => (
-  <P tipo={tipo}>{children}
+const Paragraph = ({children, tipo = 'principal', fontSize}: Props) => (
+  <P tipo={tipo} fontSize={fontSize}>{children}
   </P>
 )
 
